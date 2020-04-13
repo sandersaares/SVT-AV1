@@ -22,7 +22,6 @@
 #include "EbIntraPrediction.h"
 #include "EbModeDecisionProcess.h"
 #include "common_dsp_rtcd.h"
-//#include "EbIntraPrediction_AVX2.h"
 
 void *eb_aom_memset16(void *dest, int32_t val, size_t length);
 

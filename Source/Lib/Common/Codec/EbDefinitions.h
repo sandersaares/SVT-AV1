@@ -30,7 +30,7 @@
 #define inline
 #endif
 
-#if defined(_MSC_VER) //&& defined(_M_IX86)
+#if defined(_MSC_VER)
 #if defined(_M_IX86) || defined(_M_X64)
 #define ARCH_X86
 #endif
